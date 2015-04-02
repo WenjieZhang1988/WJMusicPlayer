@@ -69,9 +69,11 @@
     WJLrcCell *lrcCell = [WJLrcCell lrcCellWithTableView:tableView];
     
     if (self.currentIndex == indexPath.row) {
-        lrcCell.textLabel.font = [UIFont boldSystemFontOfSize:18.0];
+        lrcCell.textLabel.font = [UIFont boldSystemFontOfSize:16.0];
+        lrcCell.textLabel.textColor = [UIColor magentaColor];
     } else {
-        lrcCell.textLabel.font = [UIFont systemFontOfSize:14.0];
+        lrcCell.textLabel.font = [UIFont systemFontOfSize:13.0];
+        lrcCell.textLabel.textColor = [UIColor whiteColor];
     }
     
     // 2.给cell设置数据

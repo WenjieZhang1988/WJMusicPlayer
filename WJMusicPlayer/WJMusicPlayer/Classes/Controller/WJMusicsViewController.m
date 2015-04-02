@@ -47,7 +47,7 @@
     WJMusic *music = [WJMusicTool musics][indexPath.row];
     
     // 2.给cell设置数据
-    cell.imageView.image = [UIImage circleImageWithName:music.singerIcon borderWidth:3.0 borderColor:[UIColor purpleColor]];
+    cell.imageView.image = [UIImage circleImageWithName:music.singerIcon borderWidth:2.0 borderColor:[UIColor magentaColor]];
     cell.textLabel.text = music.name;
     cell.detailTextLabel.text = music.singer;
     
