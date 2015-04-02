@@ -20,6 +20,7 @@
 		180A49111ACD98C4000336AD /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A49021ACD98C4000336AD /* NSObject+MJCoding.m */; };
 		180A49121ACD98C4000336AD /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A49041ACD98C4000336AD /* NSObject+MJKeyValue.m */; };
 		180A49131ACD98C4000336AD /* NSObject+MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A49061ACD98C4000336AD /* NSObject+MJMember.m */; };
+		180A491F1ACD9BB4000336AD /* WJAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A491C1ACD9BB4000336AD /* WJAudioTool.m */; };
 		188F2DE41ACD94C900F18F10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE31ACD94C900F18F10 /* main.m */; };
 		188F2DE71ACD94C900F18F10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE61ACD94C900F18F10 /* AppDelegate.m */; };
 		188F2DEA1ACD94C900F18F10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE91ACD94C900F18F10 /* ViewController.m */; };
@@ -67,6 +68,8 @@
 		180A49041ACD98C4000336AD /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
 		180A49051ACD98C4000336AD /* NSObject+MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJMember.h"; sourceTree = "<group>"; };
 		180A49061ACD98C4000336AD /* NSObject+MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMember.m"; sourceTree = "<group>"; };
+		180A491B1ACD9BB4000336AD /* WJAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAudioTool.h; sourceTree = "<group>"; };
+		180A491C1ACD9BB4000336AD /* WJAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAudioTool.m; sourceTree = "<group>"; };
 		188F2DDE1ACD94C900F18F10 /* WJMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188F2DE21ACD94C900F18F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188F2DE31ACD94C900F18F10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -202,6 +205,8 @@
 		180A49141ACD999A000336AD /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				180A491B1ACD9BB4000336AD /* WJAudioTool.h */,
+				180A491C1ACD9BB4000336AD /* WJAudioTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 				180A49071ACD98C4000336AD /* UIImage+Circle.m in Sources */,
 				188F2DE71ACD94C900F18F10 /* AppDelegate.m in Sources */,
 				188F2DE41ACD94C900F18F10 /* main.m in Sources */,
+				180A491F1ACD9BB4000336AD /* WJAudioTool.m in Sources */,
 				180A490E1ACD98C4000336AD /* MJMethod.m in Sources */,
 				180A490A1ACD98C4000336AD /* UIImage+BoxBlur.m in Sources */,
 				180A490D1ACD98C4000336AD /* MJMember.m in Sources */,
