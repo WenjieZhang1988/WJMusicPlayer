@@ -4,7 +4,7 @@
 //
 //  Created by Kevin on 14/4/14.
 //  Copyright (c) 2014年 Kevin. All rights reserved.
-//  
+//
 
 #import "WJLrcView.h"
 #import "UIView+AdjustFrame.h"
@@ -149,9 +149,6 @@
             // 3.比较时间
             if ([currentTimeStr compare:lrclineTimeStr] != NSOrderedAscending &&
                 [currentTimeStr compare:nextLrclineTimeStr] != NSOrderedDescending && self.currentIndex != i) {
-                
-                NSLog(@"%@--%@--%@", currentTimeStr, lrclineTimeStr, nextLrclineTimeStr);
-                
                 NSIndexPath *indexPath1 = [NSIndexPath indexPathForRow:self.currentIndex inSection:0];
                 self.currentIndex = i;
                 NSIndexPath *indexPath2 = [NSIndexPath indexPathForRow:i inSection:0];

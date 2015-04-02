@@ -76,6 +76,10 @@
 		188F2DEF1ACD94C900F18F10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188F2DEE1ACD94C900F18F10 /* Images.xcassets */; };
 		188F2DF21ACD94C900F18F10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188F2DF01ACD94C900F18F10 /* LaunchScreen.xib */; };
 		188F2DFE1ACD94C900F18F10 /* WJMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DFD1ACD94C900F18F10 /* WJMusicPlayerTests.m */; };
+		18D3F9F91ACDB91E00F95ACB /* 流着泪说分手.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D3F9F81ACDB91E00F95ACB /* 流着泪说分手.mp3 */; };
+		18D3F9FB1ACDB9A500F95ACB /* 流着泪说分手.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 18D3F9FA1ACDB9A500F95ACB /* 流着泪说分手.lrc */; };
+		18D3F9FD1ACDBBFE00F95ACB /* Kevin_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D3F9FC1ACDBBFE00F95ACB /* Kevin_icon@2x.jpg */; };
+		18D3F9FF1ACDBC0300F95ACB /* Kevin@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D3F9FE1ACDBC0300F95ACB /* Kevin@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +189,10 @@
 		188F2DF71ACD94C900F18F10 /* WJMusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJMusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		188F2DFC1ACD94C900F18F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188F2DFD1ACD94C900F18F10 /* WJMusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJMusicPlayerTests.m; sourceTree = "<group>"; };
+		18D3F9F81ACDB91E00F95ACB /* 流着泪说分手.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "流着泪说分手.mp3"; sourceTree = "<group>"; };
+		18D3F9FA1ACDB9A500F95ACB /* 流着泪说分手.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "流着泪说分手.lrc"; sourceTree = "<group>"; };
+		18D3F9FC1ACDBBFE00F95ACB /* Kevin_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kevin_icon@2x.jpg"; sourceTree = "<group>"; };
+		18D3F9FE1ACDBC0300F95ACB /* Kevin@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kevin@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,6 +350,8 @@
 		180A493F1ACDA47A000336AD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				18D3F9FC1ACDBBFE00F95ACB /* Kevin_icon@2x.jpg */,
+				18D3F9FE1ACDBC0300F95ACB /* Kevin@2x.jpg */,
 				180A49401ACDA47A000336AD /* bb@2x.jpg */,
 				180A49411ACDA47A000336AD /* bb_icon@2x.jpg */,
 				180A49421ACDA47A000336AD /* dzq@2x.jpg */,
@@ -369,6 +379,7 @@
 		180A49541ACDA47B000336AD /* Lrcs */ = {
 			isa = PBXGroup;
 			children = (
+				18D3F9FA1ACDB9A500F95ACB /* 流着泪说分手.lrc */,
 				180A49551ACDA47B000336AD /* 10405520.lrc */,
 				180A49561ACDA47B000336AD /* 10736444.lrc */,
 				180A49571ACDA47B000336AD /* 120125029.lrc */,
@@ -386,6 +397,7 @@
 		180A495F1ACDA47B000336AD /* MP3s */ = {
 			isa = PBXGroup;
 			children = (
+				18D3F9F81ACDB91E00F95ACB /* 流着泪说分手.mp3 */,
 				180A49601ACDA47B000336AD /* 10405520.mp3 */,
 				180A49611ACDA47B000336AD /* 10736444.mp3 */,
 				180A49621ACDA47B000336AD /* 1201111234.mp3 */,
@@ -556,10 +568,12 @@
 				180A498A1ACDA47B000336AD /* 10736444.mp3 in Resources */,
 				180A49901ACDA47B000336AD /* 255319.mp3 in Resources */,
 				180A49761ACDA47B000336AD /* kzxd_icon@2x.jpg in Resources */,
+				18D3F9FF1ACDBC0300F95ACB /* Kevin@2x.jpg in Resources */,
 				180A498F1ACDA47B000336AD /* 235319.mp3 in Resources */,
 				180A49751ACDA47B000336AD /* kzxd@2x.jpg in Resources */,
 				180A497B1ACDA47B000336AD /* wf@2x.jpg in Resources */,
 				180A49701ACDA47B000336AD /* eason_icon@2x.jpg in Resources */,
+				18D3F9FB1ACDB9A500F95ACB /* 流着泪说分手.lrc in Resources */,
 				180A49871ACDA47B000336AD /* 339744.lrc in Resources */,
 				180A497F1ACDA47B000336AD /* 10405520.lrc in Resources */,
 				188F2DED1ACD94C900F18F10 /* Main.storyboard in Resources */,
@@ -567,6 +581,7 @@
 				180A49791ACDA47B000336AD /* nanquan@2x.jpg in Resources */,
 				180A496F1ACDA47B000336AD /* eason@2x.jpg in Resources */,
 				180A497E1ACDA47B000336AD /* zxy_icon@2x.jpg in Resources */,
+				18D3F9F91ACDB91E00F95ACB /* 流着泪说分手.mp3 in Resources */,
 				188F2DF21ACD94C900F18F10 /* LaunchScreen.xib in Resources */,
 				180A498B1ACDA47B000336AD /* 1201111234.mp3 in Resources */,
 				188F2DEF1ACD94C900F18F10 /* Images.xcassets in Resources */,
@@ -574,6 +589,7 @@
 				180A49741ACDA47B000336AD /* jj_icon@2x.png in Resources */,
 				180A49841ACDA47B000336AD /* 235319.lrc in Resources */,
 				180A496B1ACDA47B000336AD /* bb@2x.jpg in Resources */,
+				18D3F9FD1ACDBBFE00F95ACB /* Kevin_icon@2x.jpg in Resources */,
 				180A49811ACDA47B000336AD /* 120125029.lrc in Resources */,
 				180A49721ACDA47B000336AD /* jay_icon@2x.png in Resources */,
 				180A49921ACDA47B000336AD /* 339744.mp3 in Resources */,

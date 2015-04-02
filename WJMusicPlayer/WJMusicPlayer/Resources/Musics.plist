@@ -4,6 +4,20 @@
 <array>
 	<dict>
 		<key>name</key>
+		<string>流着泪说分手</string>
+		<key>filename</key>
+		<string>流着泪说分手.mp3</string>
+		<key>lrcname</key>
+		<string>流着泪说分手.lrc</string>
+		<key>singer</key>
+		<string>Kevin</string>
+		<key>singerIcon</key>
+		<string>Kevin_icon.jpg</string>
+		<key>icon</key>
+		<string>Kevin.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
 		<string>月半小夜曲</string>
 		<key>filename</key>
 		<string>1201111234.mp3</string>
