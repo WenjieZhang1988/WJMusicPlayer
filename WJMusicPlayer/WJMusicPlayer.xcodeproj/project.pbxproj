@@ -24,6 +24,7 @@
 		180A49231ACD9C76000336AD /* WJMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A49221ACD9C76000336AD /* WJMusic.m */; };
 		180A49261ACD9D06000336AD /* WJLrcline.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A49251ACD9D06000336AD /* WJLrcline.m */; };
 		180A49291ACD9D9A000336AD /* WJLrcCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A49281ACD9D9A000336AD /* WJLrcCell.m */; };
+		180A492F1ACDA0DF000336AD /* WJLrcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A492E1ACDA0DF000336AD /* WJLrcView.m */; };
 		188F2DE41ACD94C900F18F10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE31ACD94C900F18F10 /* main.m */; };
 		188F2DE71ACD94C900F18F10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE61ACD94C900F18F10 /* AppDelegate.m */; };
 		188F2DEA1ACD94C900F18F10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE91ACD94C900F18F10 /* ViewController.m */; };
@@ -79,6 +80,8 @@
 		180A49251ACD9D06000336AD /* WJLrcline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLrcline.m; sourceTree = "<group>"; };
 		180A49271ACD9D9A000336AD /* WJLrcCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLrcCell.h; sourceTree = "<group>"; };
 		180A49281ACD9D9A000336AD /* WJLrcCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLrcCell.m; sourceTree = "<group>"; };
+		180A492D1ACDA0DF000336AD /* WJLrcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLrcView.h; sourceTree = "<group>"; };
+		180A492E1ACDA0DF000336AD /* WJLrcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLrcView.m; sourceTree = "<group>"; };
 		188F2DDE1ACD94C900F18F10 /* WJMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188F2DE21ACD94C900F18F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188F2DE31ACD94C900F18F10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				180A48E61ACD95CE000336AD /* View */,
 				180A49271ACD9D9A000336AD /* WJLrcCell.h */,
 				180A49281ACD9D9A000336AD /* WJLrcCell.m */,
+				180A492D1ACDA0DF000336AD /* WJLrcView.h */,
+				180A492E1ACDA0DF000336AD /* WJLrcView.m */,
 				180A48E41ACD95CE000336AD /* Controller */,
 				180A48E71ACD98AD000336AD /* Other */,
 			);
@@ -394,6 +399,7 @@
 				188F2DEA1ACD94C900F18F10 /* ViewController.m in Sources */,
 				180A490B1ACD98C4000336AD /* MJArgument.m in Sources */,
 				180A49231ACD9C76000336AD /* WJMusic.m in Sources */,
+				180A492F1ACDA0DF000336AD /* WJLrcView.m in Sources */,
 				180A49261ACD9D06000336AD /* WJLrcline.m in Sources */,
 				180A49291ACD9D9A000336AD /* WJLrcCell.m in Sources */,
 				180A49081ACD98C4000336AD /* UIView+AdjustFrame.m in Sources */,
