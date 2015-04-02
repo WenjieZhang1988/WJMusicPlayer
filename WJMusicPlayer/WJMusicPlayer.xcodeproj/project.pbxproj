@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188F2DE41ACD94C900F18F10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE31ACD94C900F18F10 /* main.m */; };
+		188F2DE71ACD94C900F18F10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE61ACD94C900F18F10 /* AppDelegate.m */; };
+		188F2DEA1ACD94C900F18F10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE91ACD94C900F18F10 /* ViewController.m */; };
+		188F2DED1ACD94C900F18F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188F2DEB1ACD94C900F18F10 /* Main.storyboard */; };
+		188F2DEF1ACD94C900F18F10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188F2DEE1ACD94C900F18F10 /* Images.xcassets */; };
+		188F2DF21ACD94C900F18F10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188F2DF01ACD94C900F18F10 /* LaunchScreen.xib */; };
+		188F2DFE1ACD94C900F18F10 /* WJMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DFD1ACD94C900F18F10 /* WJMusicPlayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188F2DF81ACD94C900F18F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188F2DD61ACD94C800F18F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188F2DDD1ACD94C800F18F10;
+			remoteInfo = WJMusicPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		188F2DDE1ACD94C900F18F10 /* WJMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188F2DE21ACD94C900F18F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188F2DE31ACD94C900F18F10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188F2DE51ACD94C900F18F10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		188F2DE61ACD94C900F18F10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		188F2DE81ACD94C900F18F10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		188F2DE91ACD94C900F18F10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		188F2DEC1ACD94C900F18F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188F2DEE1ACD94C900F18F10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		188F2DF11ACD94C900F18F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		188F2DF71ACD94C900F18F10 /* WJMusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJMusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188F2DFC1ACD94C900F18F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188F2DFD1ACD94C900F18F10 /* WJMusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJMusicPlayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188F2DDB1ACD94C800F18F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F2DF41ACD94C900F18F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188F2DD51ACD94C800F18F10 = {
+			isa = PBXGroup;
+			children = (
+				188F2DE01ACD94C900F18F10 /* WJMusicPlayer */,
+				188F2DFA1ACD94C900F18F10 /* WJMusicPlayerTests */,
+				188F2DDF1ACD94C900F18F10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188F2DDF1ACD94C900F18F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188F2DDE1ACD94C900F18F10 /* WJMusicPlayer.app */,
+				188F2DF71ACD94C900F18F10 /* WJMusicPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188F2DE01ACD94C900F18F10 /* WJMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				188F2DE51ACD94C900F18F10 /* AppDelegate.h */,
+				188F2DE61ACD94C900F18F10 /* AppDelegate.m */,
+				188F2DE81ACD94C900F18F10 /* ViewController.h */,
+				188F2DE91ACD94C900F18F10 /* ViewController.m */,
+				188F2DEB1ACD94C900F18F10 /* Main.storyboard */,
+				188F2DEE1ACD94C900F18F10 /* Images.xcassets */,
+				188F2DF01ACD94C900F18F10 /* LaunchScreen.xib */,
+				188F2DE11ACD94C900F18F10 /* Supporting Files */,
+			);
+			path = WJMusicPlayer;
+			sourceTree = "<group>";
+		};
+		188F2DE11ACD94C900F18F10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188F2DE21ACD94C900F18F10 /* Info.plist */,
+				188F2DE31ACD94C900F18F10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188F2DFA1ACD94C900F18F10 /* WJMusicPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				188F2DFD1ACD94C900F18F10 /* WJMusicPlayerTests.m */,
+				188F2DFB1ACD94C900F18F10 /* Supporting Files */,
+			);
+			path = WJMusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		188F2DFB1ACD94C900F18F10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188F2DFC1ACD94C900F18F10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188F2DDD1ACD94C800F18F10 /* WJMusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188F2E011ACD94C900F18F10 /* Build configuration list for PBXNativeTarget "WJMusicPlayer" */;
+			buildPhases = (
+				188F2DDA1ACD94C800F18F10 /* Sources */,
+				188F2DDB1ACD94C800F18F10 /* Frameworks */,
+				188F2DDC1ACD94C800F18F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJMusicPlayer;
+			productName = WJMusicPlayer;
+			productReference = 188F2DDE1ACD94C900F18F10 /* WJMusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188F2DF61ACD94C900F18F10 /* WJMusicPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188F2E041ACD94C900F18F10 /* Build configuration list for PBXNativeTarget "WJMusicPlayerTests" */;
+			buildPhases = (
+				188F2DF31ACD94C900F18F10 /* Sources */,
+				188F2DF41ACD94C900F18F10 /* Frameworks */,
+				188F2DF51ACD94C900F18F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188F2DF91ACD94C900F18F10 /* PBXTargetDependency */,
+			);
+			name = WJMusicPlayerTests;
+			productName = WJMusicPlayerTests;
+			productReference = 188F2DF71ACD94C900F18F10 /* WJMusicPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188F2DD61ACD94C800F18F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					188F2DDD1ACD94C800F18F10 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					188F2DF61ACD94C900F18F10 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 188F2DDD1ACD94C800F18F10;
+					};
+				};
+			};
+			buildConfigurationList = 188F2DD91ACD94C800F18F10 /* Build configuration list for PBXProject "WJMusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188F2DD51ACD94C800F18F10;
+			productRefGroup = 188F2DDF1ACD94C900F18F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188F2DDD1ACD94C800F18F10 /* WJMusicPlayer */,
+				188F2DF61ACD94C900F18F10 /* WJMusicPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188F2DDC1ACD94C800F18F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F2DED1ACD94C900F18F10 /* Main.storyboard in Resources */,
+				188F2DF21ACD94C900F18F10 /* LaunchScreen.xib in Resources */,
+				188F2DEF1ACD94C900F18F10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F2DF51ACD94C900F18F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188F2DDA1ACD94C800F18F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F2DEA1ACD94C900F18F10 /* ViewController.m in Sources */,
+				188F2DE71ACD94C900F18F10 /* AppDelegate.m in Sources */,
+				188F2DE41ACD94C900F18F10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F2DF31ACD94C900F18F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F2DFE1ACD94C900F18F10 /* WJMusicPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188F2DF91ACD94C900F18F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188F2DDD1ACD94C800F18F10 /* WJMusicPlayer */;
+			targetProxy = 188F2DF81ACD94C900F18F10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		188F2DEB1ACD94C900F18F10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188F2DEC1ACD94C900F18F10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		188F2DF01ACD94C900F18F10 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188F2DF11ACD94C900F18F10 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188F2DFF1ACD94C900F18F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188F2E001ACD94C900F18F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188F2E021ACD94C900F18F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		188F2E031ACD94C900F18F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		188F2E051ACD94C900F18F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WJMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJMusicPlayer.app/WJMusicPlayer";
+			};
+			name = Debug;
+		};
+		188F2E061ACD94C900F18F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WJMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJMusicPlayer.app/WJMusicPlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188F2DD91ACD94C800F18F10 /* Build configuration list for PBXProject "WJMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F2DFF1ACD94C900F18F10 /* Debug */,
+				188F2E001ACD94C900F18F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188F2E011ACD94C900F18F10 /* Build configuration list for PBXNativeTarget "WJMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F2E021ACD94C900F18F10 /* Debug */,
+				188F2E031ACD94C900F18F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		188F2E041ACD94C900F18F10 /* Build configuration list for PBXNativeTarget "WJMusicPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F2E051ACD94C900F18F10 /* Debug */,
+				188F2E061ACD94C900F18F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188F2DD61ACD94C800F18F10 /* Project object */;
+}
