@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180A49071ACD98C4000336AD /* UIImage+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A48EB1ACD98C4000336AD /* UIImage+Circle.m */; };
+		180A49081ACD98C4000336AD /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A48ED1ACD98C4000336AD /* UIView+AdjustFrame.m */; };
+		180A49091ACD98C4000336AD /* DRNRealTimeBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A48F01ACD98C4000336AD /* DRNRealTimeBlurView.m */; };
+		180A490A1ACD98C4000336AD /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A48F21ACD98C4000336AD /* UIImage+BoxBlur.m */; };
+		180A490B1ACD98C4000336AD /* MJArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A48F51ACD98C4000336AD /* MJArgument.m */; };
+		180A490C1ACD98C4000336AD /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A48F81ACD98C4000336AD /* MJIvar.m */; };
+		180A490D1ACD98C4000336AD /* MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A48FA1ACD98C4000336AD /* MJMember.m */; };
+		180A490E1ACD98C4000336AD /* MJMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A48FC1ACD98C4000336AD /* MJMethod.m */; };
+		180A490F1ACD98C4000336AD /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A48FE1ACD98C4000336AD /* MJType.m */; };
+		180A49101ACD98C4000336AD /* MJTypeEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A49001ACD98C4000336AD /* MJTypeEncoding.m */; };
+		180A49111ACD98C4000336AD /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A49021ACD98C4000336AD /* NSObject+MJCoding.m */; };
+		180A49121ACD98C4000336AD /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A49041ACD98C4000336AD /* NSObject+MJKeyValue.m */; };
+		180A49131ACD98C4000336AD /* NSObject+MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A49061ACD98C4000336AD /* NSObject+MJMember.m */; };
 		188F2DE41ACD94C900F18F10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE31ACD94C900F18F10 /* main.m */; };
 		188F2DE71ACD94C900F18F10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE61ACD94C900F18F10 /* AppDelegate.m */; };
 		188F2DEA1ACD94C900F18F10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE91ACD94C900F18F10 /* ViewController.m */; };
@@ -27,6 +40,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180A48EA1ACD98C4000336AD /* UIImage+Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Circle.h"; sourceTree = "<group>"; };
+		180A48EB1ACD98C4000336AD /* UIImage+Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Circle.m"; sourceTree = "<group>"; };
+		180A48EC1ACD98C4000336AD /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		180A48ED1ACD98C4000336AD /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+		180A48EF1ACD98C4000336AD /* DRNRealTimeBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRNRealTimeBlurView.h; sourceTree = "<group>"; };
+		180A48F01ACD98C4000336AD /* DRNRealTimeBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRNRealTimeBlurView.m; sourceTree = "<group>"; };
+		180A48F11ACD98C4000336AD /* UIImage+BoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BoxBlur.h"; sourceTree = "<group>"; };
+		180A48F21ACD98C4000336AD /* UIImage+BoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BoxBlur.m"; sourceTree = "<group>"; };
+		180A48F41ACD98C4000336AD /* MJArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJArgument.h; sourceTree = "<group>"; };
+		180A48F51ACD98C4000336AD /* MJArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJArgument.m; sourceTree = "<group>"; };
+		180A48F61ACD98C4000336AD /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		180A48F71ACD98C4000336AD /* MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJIvar.h; sourceTree = "<group>"; };
+		180A48F81ACD98C4000336AD /* MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJIvar.m; sourceTree = "<group>"; };
+		180A48F91ACD98C4000336AD /* MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMember.h; sourceTree = "<group>"; };
+		180A48FA1ACD98C4000336AD /* MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMember.m; sourceTree = "<group>"; };
+		180A48FB1ACD98C4000336AD /* MJMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMethod.h; sourceTree = "<group>"; };
+		180A48FC1ACD98C4000336AD /* MJMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMethod.m; sourceTree = "<group>"; };
+		180A48FD1ACD98C4000336AD /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		180A48FE1ACD98C4000336AD /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		180A48FF1ACD98C4000336AD /* MJTypeEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTypeEncoding.h; sourceTree = "<group>"; };
+		180A49001ACD98C4000336AD /* MJTypeEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTypeEncoding.m; sourceTree = "<group>"; };
+		180A49011ACD98C4000336AD /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		180A49021ACD98C4000336AD /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		180A49031ACD98C4000336AD /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		180A49041ACD98C4000336AD /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		180A49051ACD98C4000336AD /* NSObject+MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJMember.h"; sourceTree = "<group>"; };
+		180A49061ACD98C4000336AD /* NSObject+MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMember.m"; sourceTree = "<group>"; };
 		188F2DDE1ACD94C900F18F10 /* WJMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188F2DE21ACD94C900F18F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188F2DE31ACD94C900F18F10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +100,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180A48E31ACD95CE000336AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				180A49141ACD999A000336AD /* Tool */,
+				180A48E51ACD95CE000336AD /* Model */,
+				180A48E61ACD95CE000336AD /* View */,
+				180A48E41ACD95CE000336AD /* Controller */,
+				180A48E71ACD98AD000336AD /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		180A48E41ACD95CE000336AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		180A48E51ACD95CE000336AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		180A48E61ACD95CE000336AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		180A48E71ACD98AD000336AD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				180A48E81ACD98AD000336AD /* Lib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		180A48E81ACD98AD000336AD /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				180A48E91ACD98C4000336AD /* Category */,
+				180A48EE1ACD98C4000336AD /* DRNRealTimeBlur */,
+				180A48F31ACD98C4000336AD /* MJExtension */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		180A48E91ACD98C4000336AD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				180A48EA1ACD98C4000336AD /* UIImage+Circle.h */,
+				180A48EB1ACD98C4000336AD /* UIImage+Circle.m */,
+				180A48EC1ACD98C4000336AD /* UIView+AdjustFrame.h */,
+				180A48ED1ACD98C4000336AD /* UIView+AdjustFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		180A48EE1ACD98C4000336AD /* DRNRealTimeBlur */ = {
+			isa = PBXGroup;
+			children = (
+				180A48EF1ACD98C4000336AD /* DRNRealTimeBlurView.h */,
+				180A48F01ACD98C4000336AD /* DRNRealTimeBlurView.m */,
+				180A48F11ACD98C4000336AD /* UIImage+BoxBlur.h */,
+				180A48F21ACD98C4000336AD /* UIImage+BoxBlur.m */,
+			);
+			path = DRNRealTimeBlur;
+			sourceTree = "<group>";
+		};
+		180A48F31ACD98C4000336AD /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				180A48F41ACD98C4000336AD /* MJArgument.h */,
+				180A48F51ACD98C4000336AD /* MJArgument.m */,
+				180A48F61ACD98C4000336AD /* MJExtension.h */,
+				180A48F71ACD98C4000336AD /* MJIvar.h */,
+				180A48F81ACD98C4000336AD /* MJIvar.m */,
+				180A48F91ACD98C4000336AD /* MJMember.h */,
+				180A48FA1ACD98C4000336AD /* MJMember.m */,
+				180A48FB1ACD98C4000336AD /* MJMethod.h */,
+				180A48FC1ACD98C4000336AD /* MJMethod.m */,
+				180A48FD1ACD98C4000336AD /* MJType.h */,
+				180A48FE1ACD98C4000336AD /* MJType.m */,
+				180A48FF1ACD98C4000336AD /* MJTypeEncoding.h */,
+				180A49001ACD98C4000336AD /* MJTypeEncoding.m */,
+				180A49011ACD98C4000336AD /* NSObject+MJCoding.h */,
+				180A49021ACD98C4000336AD /* NSObject+MJCoding.m */,
+				180A49031ACD98C4000336AD /* NSObject+MJKeyValue.h */,
+				180A49041ACD98C4000336AD /* NSObject+MJKeyValue.m */,
+				180A49051ACD98C4000336AD /* NSObject+MJMember.h */,
+				180A49061ACD98C4000336AD /* NSObject+MJMember.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		180A49141ACD999A000336AD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		188F2DD51ACD94C800F18F10 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +227,11 @@
 		188F2DE01ACD94C900F18F10 /* WJMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				180A48E31ACD95CE000336AD /* Classes */,
 				188F2DE51ACD94C900F18F10 /* AppDelegate.h */,
 				188F2DE61ACD94C900F18F10 /* AppDelegate.m */,
 				188F2DE81ACD94C900F18F10 /* ViewController.h */,
 				188F2DE91ACD94C900F18F10 /* ViewController.m */,
-				188F2DEB1ACD94C900F18F10 /* Main.storyboard */,
-				188F2DEE1ACD94C900F18F10 /* Images.xcassets */,
-				188F2DF01ACD94C900F18F10 /* LaunchScreen.xib */,
 				188F2DE11ACD94C900F18F10 /* Supporting Files */,
 			);
 			path = WJMusicPlayer;
@@ -96,6 +240,9 @@
 		188F2DE11ACD94C900F18F10 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				188F2DEB1ACD94C900F18F10 /* Main.storyboard */,
+				188F2DEE1ACD94C900F18F10 /* Images.xcassets */,
+				188F2DF01ACD94C900F18F10 /* LaunchScreen.xib */,
 				188F2DE21ACD94C900F18F10 /* Info.plist */,
 				188F2DE31ACD94C900F18F10 /* main.m */,
 			);
@@ -163,6 +310,7 @@
 		188F2DD61ACD94C800F18F10 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WJ;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Kevin;
 				TargetAttributes = {
@@ -219,9 +367,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180A49131ACD98C4000336AD /* NSObject+MJMember.m in Sources */,
+				180A49111ACD98C4000336AD /* NSObject+MJCoding.m in Sources */,
+				180A490C1ACD98C4000336AD /* MJIvar.m in Sources */,
+				180A49101ACD98C4000336AD /* MJTypeEncoding.m in Sources */,
 				188F2DEA1ACD94C900F18F10 /* ViewController.m in Sources */,
+				180A490B1ACD98C4000336AD /* MJArgument.m in Sources */,
+				180A49081ACD98C4000336AD /* UIView+AdjustFrame.m in Sources */,
+				180A490F1ACD98C4000336AD /* MJType.m in Sources */,
+				180A49071ACD98C4000336AD /* UIImage+Circle.m in Sources */,
 				188F2DE71ACD94C900F18F10 /* AppDelegate.m in Sources */,
 				188F2DE41ACD94C900F18F10 /* main.m in Sources */,
+				180A490E1ACD98C4000336AD /* MJMethod.m in Sources */,
+				180A490A1ACD98C4000336AD /* UIImage+BoxBlur.m in Sources */,
+				180A490D1ACD98C4000336AD /* MJMember.m in Sources */,
+				180A49121ACD98C4000336AD /* NSObject+MJKeyValue.m in Sources */,
+				180A49091ACD98C4000336AD /* DRNRealTimeBlurView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +573,7 @@
 				188F2E031ACD94C900F18F10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188F2E041ACD94C900F18F10 /* Build configuration list for PBXNativeTarget "WJMusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +582,7 @@
 				188F2E061ACD94C900F18F10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
