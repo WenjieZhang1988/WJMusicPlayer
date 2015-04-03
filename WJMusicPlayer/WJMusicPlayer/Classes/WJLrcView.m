@@ -121,7 +121,7 @@
 {
     // 0.传入时间和之前保存的时间对比
     if (_currentTime > currentTime) {
-        self.currentIndex = 0;
+        self.currentIndex = -1;
     }
     
     // 1.保存当前的时间
@@ -135,7 +135,7 @@
     
     // 3.当前的时间,和数组中的所有时间对比
     NSInteger count = self.lrclines.count;
-    for (NSInteger i = self.currentIndex; i < count; i++) {
+    for (NSInteger i = self.currentIndex + 1; i < count; i++) {
         // 1.取出i的模型
         WJLrcline *lrcline = self.lrclines[i];
         NSString *lrclineTimeStr = lrcline.time;

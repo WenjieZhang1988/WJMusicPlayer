@@ -18,6 +18,20 @@
 	</dict>
 	<dict>
 		<key>name</key>
+		<string>I Want It That Way</string>
+		<key>filename</key>
+		<string>12309111.mp3</string>
+		<key>lrcname</key>
+		<string>12309111.lrc</string>
+		<key>singer</key>
+		<string>Backstreet Boys</string>
+		<key>singerIcon</key>
+		<string>bb_icon.jpg</string>
+		<key>icon</key>
+		<string>bb.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
 		<string>月半小夜曲</string>
 		<key>filename</key>
 		<string>1201111234.mp3</string>
@@ -57,20 +71,6 @@
 		<string>dzq_icon.jpg</string>
 		<key>icon</key>
 		<string>dzq.jpg</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>I Want It That Way</string>
-		<key>filename</key>
-		<string>12309111.mp3</string>
-		<key>lrcname</key>
-		<string>12309111.lrc</string>
-		<key>singer</key>
-		<string>Backstreet Boys</string>
-		<key>singerIcon</key>
-		<string>bb_icon.jpg</string>
-		<key>icon</key>
-		<string>bb.jpg</string>
 	</dict>
 	<dict>
 		<key>name</key>
