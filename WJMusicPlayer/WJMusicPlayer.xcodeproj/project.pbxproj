@@ -70,6 +70,14 @@
 		180A49911ACDA47B000336AD /* 309769.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180A49681ACDA47B000336AD /* 309769.mp3 */; };
 		180A49921ACDA47B000336AD /* 339744.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180A49691ACDA47B000336AD /* 339744.mp3 */; };
 		180A49931ACDA47B000336AD /* Musics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 180A496A1ACDA47B000336AD /* Musics.plist */; };
+		1865F6A51AD74E5F008104A0 /* 美人鱼.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 1865F6A41AD74E5F008104A0 /* 美人鱼.lrc */; };
+		1865F6A71AD74E70008104A0 /* 美人鱼_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1865F6A61AD74E70008104A0 /* 美人鱼_icon@2x.jpg */; };
+		1865F6A91AD74E97008104A0 /* 美人鱼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1865F6A81AD74E97008104A0 /* 美人鱼.mp3 */; };
+		1865F6AB1AD74EC0008104A0 /* 美人鱼@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1865F6AA1AD74EC0008104A0 /* 美人鱼@2x.jpg */; };
+		1865F6AD1AD74F91008104A0 /* 我.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1865F6AC1AD74F91008104A0 /* 我.mp3 */; };
+		1865F6AF1AD74F9F008104A0 /* 我.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 1865F6AE1AD74F9F008104A0 /* 我.lrc */; };
+		1865F6B11AD74FA4008104A0 /* 我_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1865F6B01AD74FA4008104A0 /* 我_icon@2x.jpg */; };
+		1865F6B31AD74FB6008104A0 /* 我@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1865F6B21AD74FB6008104A0 /* 我@2x.jpg */; };
 		188F2DE41ACD94C900F18F10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE31ACD94C900F18F10 /* main.m */; };
 		188F2DE71ACD94C900F18F10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2DE61ACD94C900F18F10 /* AppDelegate.m */; };
 		188F2DED1ACD94C900F18F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188F2DEB1ACD94C900F18F10 /* Main.storyboard */; };
@@ -178,6 +186,14 @@
 		180A49681ACDA47B000336AD /* 309769.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 309769.mp3; sourceTree = "<group>"; };
 		180A49691ACDA47B000336AD /* 339744.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 339744.mp3; sourceTree = "<group>"; };
 		180A496A1ACDA47B000336AD /* Musics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Musics.plist; sourceTree = "<group>"; };
+		1865F6A41AD74E5F008104A0 /* 美人鱼.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "美人鱼.lrc"; sourceTree = "<group>"; };
+		1865F6A61AD74E70008104A0 /* 美人鱼_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美人鱼_icon@2x.jpg"; sourceTree = "<group>"; };
+		1865F6A81AD74E97008104A0 /* 美人鱼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "美人鱼.mp3"; sourceTree = "<group>"; };
+		1865F6AA1AD74EC0008104A0 /* 美人鱼@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美人鱼@2x.jpg"; sourceTree = "<group>"; };
+		1865F6AC1AD74F91008104A0 /* 我.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我.mp3"; sourceTree = "<group>"; };
+		1865F6AE1AD74F9F008104A0 /* 我.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "我.lrc"; sourceTree = "<group>"; };
+		1865F6B01AD74FA4008104A0 /* 我_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我_icon@2x.jpg"; sourceTree = "<group>"; };
+		1865F6B21AD74FB6008104A0 /* 我@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我@2x.jpg"; sourceTree = "<group>"; };
 		188F2DDE1ACD94C900F18F10 /* WJMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188F2DE21ACD94C900F18F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188F2DE31ACD94C900F18F10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -352,6 +368,10 @@
 			children = (
 				18D3F9FC1ACDBBFE00F95ACB /* Kevin_icon@2x.jpg */,
 				18D3F9FE1ACDBC0300F95ACB /* Kevin@2x.jpg */,
+				1865F6B01AD74FA4008104A0 /* 我_icon@2x.jpg */,
+				1865F6B21AD74FB6008104A0 /* 我@2x.jpg */,
+				1865F6A61AD74E70008104A0 /* 美人鱼_icon@2x.jpg */,
+				1865F6AA1AD74EC0008104A0 /* 美人鱼@2x.jpg */,
 				180A49401ACDA47A000336AD /* bb@2x.jpg */,
 				180A49411ACDA47A000336AD /* bb_icon@2x.jpg */,
 				180A49421ACDA47A000336AD /* dzq@2x.jpg */,
@@ -380,6 +400,8 @@
 			isa = PBXGroup;
 			children = (
 				18D3F9FA1ACDB9A500F95ACB /* 流着泪说分手.lrc */,
+				1865F6AE1AD74F9F008104A0 /* 我.lrc */,
+				1865F6A41AD74E5F008104A0 /* 美人鱼.lrc */,
 				180A49551ACDA47B000336AD /* 10405520.lrc */,
 				180A49561ACDA47B000336AD /* 10736444.lrc */,
 				180A49571ACDA47B000336AD /* 120125029.lrc */,
@@ -398,6 +420,8 @@
 			isa = PBXGroup;
 			children = (
 				18D3F9F81ACDB91E00F95ACB /* 流着泪说分手.mp3 */,
+				1865F6AC1AD74F91008104A0 /* 我.mp3 */,
+				1865F6A81AD74E97008104A0 /* 美人鱼.mp3 */,
 				180A49601ACDA47B000336AD /* 10405520.mp3 */,
 				180A49611ACDA47B000336AD /* 10736444.mp3 */,
 				180A49621ACDA47B000336AD /* 1201111234.mp3 */,
@@ -570,23 +594,30 @@
 				180A49761ACDA47B000336AD /* kzxd_icon@2x.jpg in Resources */,
 				18D3F9FF1ACDBC0300F95ACB /* Kevin@2x.jpg in Resources */,
 				180A498F1ACDA47B000336AD /* 235319.mp3 in Resources */,
+				1865F6B11AD74FA4008104A0 /* 我_icon@2x.jpg in Resources */,
 				180A49751ACDA47B000336AD /* kzxd@2x.jpg in Resources */,
 				180A497B1ACDA47B000336AD /* wf@2x.jpg in Resources */,
 				180A49701ACDA47B000336AD /* eason_icon@2x.jpg in Resources */,
 				18D3F9FB1ACDB9A500F95ACB /* 流着泪说分手.lrc in Resources */,
 				180A49871ACDA47B000336AD /* 339744.lrc in Resources */,
+				1865F6AD1AD74F91008104A0 /* 我.mp3 in Resources */,
+				1865F6A71AD74E70008104A0 /* 美人鱼_icon@2x.jpg in Resources */,
+				1865F6B31AD74FB6008104A0 /* 我@2x.jpg in Resources */,
 				180A497F1ACDA47B000336AD /* 10405520.lrc in Resources */,
 				188F2DED1ACD94C900F18F10 /* Main.storyboard in Resources */,
+				1865F6AF1AD74F9F008104A0 /* 我.lrc in Resources */,
 				180A498D1ACDA47B000336AD /* 12309111.mp3 in Resources */,
 				180A49791ACDA47B000336AD /* nanquan@2x.jpg in Resources */,
 				180A496F1ACDA47B000336AD /* eason@2x.jpg in Resources */,
 				180A497E1ACDA47B000336AD /* zxy_icon@2x.jpg in Resources */,
 				18D3F9F91ACDB91E00F95ACB /* 流着泪说分手.mp3 in Resources */,
 				188F2DF21ACD94C900F18F10 /* LaunchScreen.xib in Resources */,
+				1865F6A51AD74E5F008104A0 /* 美人鱼.lrc in Resources */,
 				180A498B1ACDA47B000336AD /* 1201111234.mp3 in Resources */,
 				188F2DEF1ACD94C900F18F10 /* Images.xcassets in Resources */,
 				180A49931ACDA47B000336AD /* Musics.plist in Resources */,
 				180A49741ACDA47B000336AD /* jj_icon@2x.png in Resources */,
+				1865F6AB1AD74EC0008104A0 /* 美人鱼@2x.jpg in Resources */,
 				180A49841ACDA47B000336AD /* 235319.lrc in Resources */,
 				180A496B1ACDA47B000336AD /* bb@2x.jpg in Resources */,
 				18D3F9FD1ACDBBFE00F95ACB /* Kevin_icon@2x.jpg in Resources */,
@@ -604,6 +635,7 @@
 				180A49911ACDA47B000336AD /* 309769.mp3 in Resources */,
 				180A497D1ACDA47B000336AD /* zxy@2x.jpg in Resources */,
 				180A49881ACDA47B000336AD /* 月半小夜曲.lrc in Resources */,
+				1865F6A91AD74E97008104A0 /* 美人鱼.mp3 in Resources */,
 				180A496D1ACDA47B000336AD /* dzq@2x.jpg in Resources */,
 				180A496E1ACDA47B000336AD /* dzq_icon@2x.jpg in Resources */,
 			);

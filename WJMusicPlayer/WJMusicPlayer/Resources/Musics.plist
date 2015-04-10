@@ -18,6 +18,34 @@
 	</dict>
 	<dict>
 		<key>name</key>
+		<string>我</string>
+		<key>filename</key>
+		<string>我.mp3</string>
+		<key>lrcname</key>
+		<string>我.lrc</string>
+		<key>singer</key>
+		<string>张国荣</string>
+		<key>singerIcon</key>
+		<string>我_icon.jpg</string>
+		<key>icon</key>
+		<string>我.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>美人鱼</string>
+		<key>filename</key>
+		<string>美人鱼.mp3</string>
+		<key>lrcname</key>
+		<string>美人鱼.lrc</string>
+		<key>singer</key>
+		<string>林俊杰</string>
+		<key>singerIcon</key>
+		<string>美人鱼_icon.jpg</string>
+		<key>icon</key>
+		<string>美人鱼.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
 		<string>I Want It That Way</string>
 		<key>filename</key>
 		<string>12309111.mp3</string>
