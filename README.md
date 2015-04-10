@@ -1,2 +1,2 @@
 # WJMusicPlayer
-本地音乐播放器
+音乐播放器Demo
